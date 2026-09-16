@@ -17,6 +17,8 @@
     }
     .center_div {
         text-align: center;
+        width: 60%;
+    margin: 0 auto;
     }
     ul {
         list-style-type: none;
@@ -29,18 +31,19 @@
 <body>
 
 
-<h1 style="text-align: center;">This is my first day work in PHP</h1>
+<h1 style="text-align: center;">Day 2 Learning PHP</h1>
 
 
-<div class="my_div">
+<!-- <div class="my_div">
     <h3>What is PHP</h3>
 <ul>
     <li>PHP is a <b>Hypertext Preprocessor</b> language </li>
     <li>PHP is a <b>Server Side Scripting</b> language </li>
     <li>PHP is used for <b>Web Applications</b> & <b>Web Development</b> </li>
 </ul>
-</div>
+</div> -->
 
+<div style="display: flex;">
 
 <div class="center_div">
 
@@ -178,7 +181,6 @@
 // echo "Hi, my name is " . $name . ". I am " . $age . " oears old and i live in " . $city . "."; 
 
 
-echo "<span> I am learning Arrays in PHP  <br> </span>";
 
 // $x = 0;
 
@@ -198,7 +200,7 @@ echo "<span> I am learning Arrays in PHP  <br> </span>";
 
 // Simple Index Array
 
-$array = ["blue", "red", "white"];
+// $array = ["blue", "red", "white"];
 // echo $array[0];
 
 
@@ -320,9 +322,201 @@ $array = ["blue", "red", "white"];
 
 // I try to push the code from laptop
 
+// Shift Unshift
+
+// $array = [1,2,3,4,5,1,1];
+// echo var_dump(array_shift($array));
+// array_shift($array);
+// foreach($array as $e) {
+//     echo $e;
+// }
+
+// echo "<br>";
+
+// array_unshift($array, 2);
+
+// foreach($array as $e) {
+//     echo $e;
+// }
+
+
+// Sort
+
+
+// $array = [1,2,3,4,5,1,1];
+
+
+// rsort($array); Resort
+// sort($array); Simple Sort
+// ksort($array);   // Sort by KEY (A → Z)
+// krsort($array);  // Sort by KEY (Z → A)
+
+// asort($array);   // Sort by VALUE (keeps keys)
+// arsort($array);  // Sort by VALUE descending (keeps keys)
+
+// foreach ($array as $e) {
+//     echo $e;
+// }
+
+// Things to learn after Function learning
+// Array filter, Array Map
+
+// echo "<span> I am learning Functions in PHP  <br> </span>";
+// echo "<h3>What is PHP functions</h3>";
+// echo "A function is a block of code which can be used whenever needed. <br>";
+// echo "A function cannot automatically runs when page loads, it only runs when user need.";
+// echo "<br>";
+// echo "<br>";
+
+// function first_function($name = "User") {
+//     echo "Hi, $name";
+// }
+
+// first_function("Ayaz");
+
+
+
+// echo "Learning day 2 things";
+// echo "<h3 style='text-align: left !important';> For loop</h3>";
+// for ($i = 0; $i <= 20; $i++) {
+//     echo $i . "-";
+// }
+// echo "<h3 style='text-align: left !important';> While loop</h3>";
+// $i = 0;
+// while ($i <= 20) {
+//     echo $i . "-";
+//     if ($i == 10) {
+//         break;
+//     }
+//     $i++;
+// }
+// echo "<h3 style='text-align: left !important';> For each</h3>";
+
+// $array1 = ["red", "white", "blue", "black"];
+// foreach ($array1 as $e) {
+//     echo $e . " - ";
+// }
+
+// echo "<h3 style='text-align: left !important';> Index Arrays</h3>";
+// print_r($array1);
+
+
+// echo "<h3 style='text-align: left !important';> Associative Arrays</h3>";
+// $array2 = ["Ayaz" => "Mercedes", "Hamza" => "BMW", "Hammad" => "Porchse"];
+// print_r($array2);
+
+
+// echo "<h3 style='text-align: left !important';> Multidimensonal Arrays</h3>";
+// $array3 = array(
+//     array(
+//         "Ayaz" => "Mercedes", "Hamza" => "BMW", "Hammad" => "Porchse"
+//     ),
+//     array(
+//         "Ayaz" => "Mercedes", "Hamza" => "BMW", "Hammad" => "Porchse"
+//     )
+// );
+// print_r($array3);
+
+
+
+
+
+
+ ?>
+
+ </div>
+
+ <!-- <div class="left_side" style="width: 50%;"> -->
+<?php 
+
+
+// echo "<h3 style='text-align: left !important';>Array Functions</h3>";
+
+
+// $array4 = ["black", "red", "white", "blue", "pink", "skyblue", "golden"];
+
+// foreach ($array4 as $i) {
+//     echo $i . "  ";
+// }
+
+
+// echo "<br>Count Function <br>";
+// print_r(count($array4));
+
+// $array5 = ["black", "red", "white", "blue", "pink", "skyblue", "golden"];
+
+// echo "<br>Sort Function <br>";
+// sort($array5);
+// print_r($array5);
+
+// echo "<br>ReSort Function <br>";
+// rsort($array5);
+// print_r($array5);
+
+// echo "<br>Push Function <br>";
+// array_push($array5, "Gray");
+// print_r($array5);
+
+// echo "<br>Pop Function <br>";
+// array_pop($array5);
+// print_r($array5);
+
+// echo "<br>Shift Function <br>";
+// array_shift($array5);
+// print_r($array5);
+
+
+// echo "<br>Unshift Function <br>";
+// array_unshift($array5, "Silver");
+// print_r($array5);
+
+
+
+// echo "<h3 style='text-align: left !important';>Functions</h3>";
+// function first() {
+//     echo "Message from function";
+// }
+// first();
+// echo "<br>";
+
+// function parameter_function($value = "User") {
+//     echo "Default value:   Hi, " . $value . "<br>";
+// }
+
+// parameter_function();
+// parameter_function("Ayaz");
+
+// echo "<h3 style='text-align: left !important';>Varabile Scope</h3>";
+
+// $x = 5;
+// function test() {
+//     global $x;
+//     $y = 5;
+//     $y = $x + $y;
+//     echo "using global statement before varabile name" . $y;
+// }
+
+// test();
+
+
+for ($i = 0; $i <= 100; $i++) {
+    echo $i;
+}
+
+echo "<br>";
+
+for ($i = 0; $i <= 100; $i++) {
+    if ($i % 2 == 0) {
+        echo $i;
+    }
+}
+
+
+
 
 
 ?>
+<!-- </div> -->
 
 </div>
 
