@@ -43,7 +43,7 @@
 </ul>
 </div> -->
 
-<div style="display: flex;">
+<div >
 
 <div class="center_div">
 
@@ -499,17 +499,41 @@
 // test();
 
 
+echo "<h4>For Loop 0-100</h4>";
+
+
 for ($i = 0; $i <= 100; $i++) {
     echo $i;
 }
 
 echo "<br>";
+echo "<h4>Even from 0-100</h4>";
+
 
 for ($i = 0; $i <= 100; $i++) {
     if ($i % 2 == 0) {
         echo $i;
     }
 }
+
+echo "<br>";
+echo "<h4>Multiplication Table</h4>";
+
+
+for ($i = 2; $i <= 10; $i++) {
+    echo "2 * " . $i . " = " .  $i * 2 . "<br>";
+}
+
+
+echo "<br>";
+echo "<h4>All Students</h4>";
+
+
+$students = ["Ayaz", "Hammad", "Hamza", "Hassan"];
+foreach ($students as $s ) {
+    echo $s . "  ";
+}
+
 
 
 
