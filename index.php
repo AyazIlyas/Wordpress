@@ -499,44 +499,65 @@
 // test();
 
 
-echo "<h4>For Loop 0-100</h4>";
+// echo "<h4>For Loop 0-100</h4>";
 
 
-for ($i = 0; $i <= 100; $i++) {
-    echo $i;
-}
+// for ($i = 0; $i <= 100; $i++) {
+//     echo $i;
+// }
 
-echo "<br>";
-echo "<h4>Even from 0-100</h4>";
-
-
-for ($i = 0; $i <= 100; $i++) {
-    if ($i % 2 == 0) {
-        echo $i;
-    }
-}
-
-echo "<br>";
-echo "<h4>Multiplication Table</h4>";
+// echo "<br>";
+// echo "<h4>Even from 0-100</h4>";
 
 
-for ($i = 2; $i <= 10; $i++) {
-    echo "2 * " . $i . " = " .  $i * 2 . "<br>";
-}
+// for ($i = 0; $i <= 100; $i++) {
+//     if ($i % 2 == 0) {
+//         echo $i;
+//     }
+// }
+
+// echo "<br>";
+// echo "<h4>Multiplication Table</h4>";
 
 
-echo "<br>";
-echo "<h4>All Students</h4>";
+// for ($i = 2; $i <= 10; $i++) {
+//     echo "2 * " . $i . " = " .  $i * 2 . "<br>";
+// }
 
 
-$students = ["Ayaz", "Hammad", "Hamza", "Hassan"];
-foreach ($students as $s ) {
-    echo $s . "  ";
-}
+// echo "<br>";
+// echo "<h4>All Students</h4>";
 
 
+// $students = ["Ayaz", "Hammad", "Hamza", "Hassan"];
+// foreach ($students as $s ) {
+//     echo $s . "  ";
+// }
+
+// echo "<br>";
+// echo "<h4>Function that adds two numbers</h4>";
 
 
+// function number($x, $y) {
+//     $z = $x + $y;
+//     echo "The Sum of " . $x . " and " . $y . " is : " . $z;   
+// }
+
+// number(625,1200);
+
+// echo "<br>";
+// echo "<h4>Even or Odd difference</h4>";
+
+
+// function check($number) {
+//     if ($number % 2 == 0) {
+//         echo "The number is even " . $number;
+//     } else if ($number % 2 != 0) {
+//         echo "The number is odd " . $number;
+//     }
+// }
+
+// check(5);
 
 
 ?>
