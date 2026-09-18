@@ -31,7 +31,7 @@
 <body>
 
 
-<h1 style="text-align: center;">Day 2 Learning PHP</h1>
+<!-- <h1 style="text-align: center;">Day 2 Learning PHP</h1> -->
 
 
 <!-- <div class="my_div">
@@ -564,6 +564,81 @@
 <!-- </div> -->
 
 </div>
+
+
+
+<div>
+
+<h1 >Day 3 Learning PHP</h1>
+<br>
+<p>Learning String Functions</p>
+
+<!-- strlen()
+strtoupper()
+strtolower()
+ucfirst()
+ucwords()
+trim()
+str_replace()
+strpos()
+str_contains()
+substr()
+explode()
+implode() -->
+
+
+<?php
+$pass = "ayazkhan67@";
+$text = "I Like Maheen";
+
+print_r(strlen($pass));
+echo "<br>";
+print_r(strtoupper($pass));
+echo "<br>";
+print_r(strtolower($pass));
+echo "<br>";
+print_r(ucfirst($pass));
+echo "<br>";
+print_r(ucwords($pass));
+echo "<br>";
+print_r(trim($pass));
+echo "<br>";
+print_r(str_replace("Maheen", "Maryam", $text));
+echo "<br>";
+if (str_contains($pass, "@")) {
+    echo "Found !";
+} else {
+    echo "Password is not strong";
+}
+
+
+
+
+
+
+
+
+?>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
 
 </body>
 </html>

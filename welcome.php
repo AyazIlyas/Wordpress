@@ -7,7 +7,7 @@
 </head>
 <body>
     <?php
-    echo "Your Name : " . $_POST["name"] . "<br>";
+    echo "Your Name : " . $_POST["user_name"] . "<br>";
     echo "Your Email : " . $_POST["email"];
     
     ?>
