@@ -26,13 +26,24 @@
     myFunction();
     }
     ?>
+    <?php
+    include("header.php");
+    ?>
     <div style="text-align: center;">
-        <h1>Day 3 pearning PHP</h1>
+        
     <form action="welcome.php" method="POST">
         <input type="text" name="user_name" placeholder="Name"> <br>
         <input type="text" name="email" placeholder="Email"> <br>
         <input type="submit" name="submit">
     </form>
+    </div>
+    <div class="content">
+        <br>
+        <p>Learning Require and Include.</p>
+        <br>
+        <p>The use of include statement is show 1 php file into anohter. <br>
+        Include and Require are same but the main difference is if error was came the require show only error.
+    </p>
     </div>
 </body>
 </html>
