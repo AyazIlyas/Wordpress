@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    background: #3cc7ff78;
+    padding: 12px;
+}
+
+.company_name {
+    text-align: center;
+}
+
+.navbar_links {
+    display: flex;
+    gap: 0px 18px;
+    list-style-type: none;
+}
+
+
+.content {
+    margin-top: 1rem;
+}
+
+
+.footer {
+   background-color: black;
+   color: white;
+   padding: 6px 0px;
+   position: absolute;
+   width: 100%;
+   bottom: 0;
+}
+
+
+.form_div {
+    background: #3cc7ff78;
+    width: max-content;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    gap: 30px;
+}
+
+.main_form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
